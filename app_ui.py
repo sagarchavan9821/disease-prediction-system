@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
-
+import os 
+FASTAPI_URL = os.getenv("FASTAPI_URL", "http://127.0.0.1:8000")
 st.set_page_config(
     page_title="Disease Prediction System",
     page_icon="🏥",
@@ -48,7 +49,7 @@ if submitted:
 
     with st.spinner("Analyzing..."):
         try:
-            response    = requests.post("http://fastapi:8000/predict", json=payload)
+            response = requests.post(f"{FASTAPI_URL}/predict", json=payload)
             predictions = response.json()["predictions"]
 
             st.markdown("---")
