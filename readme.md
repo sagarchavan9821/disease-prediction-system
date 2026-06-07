@@ -200,7 +200,7 @@ streamlit run app_ui.py
 **Sagar Chavan**  
 [GitHub](https://github.com/sagarchavan9821) • [LinkedIn](www.linkedin.com/in/sagar-chavan-b2build)
 
----
+---Live Demo: https://disease-streamlit-latest.onrender.com
 
 ## ⚠️ Disclaimer
 
