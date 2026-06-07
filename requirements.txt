@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+scikit-learn==1.8.0
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+pydantic
+requests

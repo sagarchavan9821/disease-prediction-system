@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+model.pkl
+.env
+postgres_data/
+*.mp4
